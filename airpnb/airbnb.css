@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-left: 50px;
+    padding-right: 64px;
+    align-items: center;
+    width: 97vw;
+    height: 95px;
+    border-bottom: ridge;
+
+}
+
+.box1 {
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-width: 1px;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0);
+    background-color: rgb(254, 252, 252);
+    height: 48px;
+    width: 348px;
+    /* -tw-shadow: 0 4px 6px -1px rgb(0 0 0/0.1); */
+
+}
+
+.box1 i {
+
+    background-color: red;
+    color: white;
+    border-radius: 9999px;
+    padding: 0.5rem;
+}
+
+.b-1 {
+    border: 2px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.25rem;
+    font-weight: 500em;
+    color: black;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+.butt {
+    border: 0px;
+    font-size: 14px;
+    color: rgb(44, 47, 44);
+    padding-left: 10px;
+    padding-right: 10px;
+    /* font-size: 0.875rem;
+    line-height: 1.25rem; */
+    /* text:rgb(115, 189, 201);
+    text:4px; */
+
+}
+
+.box2 {
+    justify-content: center;
+    display: flex;
+    justify-items: end;
+    align-items: center;
+    gap: 15px;
+}
+
+.box2 i {
+    border: 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box3 {
+    display: flex;
+    /* justify-tracks:evenly; */
+    gap: 3px;
+    background-color: white;
+    color: white;
+    border-radius: 9999px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0);
+    justify-content: center;
+    padding: left 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.box button {
+    border: 2px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.box3 i {
+    color: black;
+
+}
+
+/* ``````navbar1 end ```````````*`/
+
+/* ``````navbar2 start ```````````*/
+
+.number1 {
+    display: block;
+    align-items: center;
+    display: flex;
+    height: 10rem;
+    margin-right: calc(45px);
+}
+
+.number2 {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 45px;
+    justify-content: center;
+    margin-right: 50px;
+
+
+}
+
+.number2 p :hover {
+    color: rgb(156 163 176);
+    text-emphasis-color: black;
+    color: rgb(18, 18, 19);
+}
+
+.number2 span {
+    display: flex;
+    padding-left: 16px;
+}
+
+.number3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number3 img {
+    height: 34px;
+    width: 34px;
+    font-weight: normal;
+}
+
+.text1 {
+    font-size: 15px;
+}
+
+.number4 {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0);
+    height: 34px;
+    width: 94px;
+    border: 0px;
+    padding-left: 1px;
+    padding-right: 18px;
+}
+
+.number4 p {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.Number5 {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+/* ``````navbar2 end ```````````*/
+
+/* ``````navbar3 start ```````````*/
+
+.air1 {
+    /* display: block;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid black;
+    /* box-shadow: 0 4px 6px -1px rgb(0 0 0); */
+    height: 65px;
+    width: 80%;
+    margin-bottom: 10px;
+    box-sizing: var(-tw-shadow)(.5em);
+}
+
+.air1 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+}
+
+.air2 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px;
+    border-radius: 12px;
+    width: 600px;
+    height: 64px;
+    padding: 16px;
+    align-items: center;
+
+}
+
+.air3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text2 {
+    border-right: 2px;
+    color: rgb(46, 48, 48);
+    padding-right: 16px;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+.text3 {
+    padding-left: 16px;
+    color: green;
+    line-height: 1.5rem;
+    font-size: 16px;
+}
+
+/* ``````navbar3 end ```````````*/
+
+.hotal {
+    margin-top: 46px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-rows: 80px 200px 25px 40px;
+}
+
+.hotal1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* gap: 35px; */
+    padding-left: 45px;
+
+
+}
+
+.hotal1 .hotal2 img {
+    /* width: 340px; */
+    height: 500px;
+    gap: px;
+    border-radius: 12px;
+}
+
+.hotal2 {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    width: 350px;
+    height: 467px;
+
+}
+
+/* .hotal2 img{
+    width: 340px;
+    height: 500px;
+    gap: px;
+    border-radius: 12px; 
+}*/
+.hotal3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.t {
+    display: grid;
+    font-size: 70vh;
+    gap: 0px;
+
+}
+
+.t-1 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.hotal4 {
+    display: flex;
+    align-items: center;
+}
+
+.t-2 {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.t-3 {
+    font-size: small;
+    color: grey;
+
+}
+
+.card {
+    background-color: rgb(230, 229, 229);
+    box-sizing: border-box;
+    /* border-bottom: ridge; */
+    border-top: ridge;
+
+}
+
+.card h1 {
+    display: grid;
+    display: flex;
+    margin-left: 85px;
+    font-size: 30px;
+}
+
+.card1 {
+    display: flex;
+    margin-left: 85px;
+    gap: 350px;
+
+}
+
+.card3 {
+    display: flex;
+    margin-left: 85px;
+    gap: 15px;
+    
+    box-sizing: border-box;
+
+}
+
+.card4 {
+    display: flex;
+    justify-items: end;
+    position: absolute;
+    right: 250px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.cd1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card5 {
+    display: flex;
+    border-top: ridge;
+
+}
+.cd2{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.cd3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
