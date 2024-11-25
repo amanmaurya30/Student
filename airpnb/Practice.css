@@ -30,7 +30,7 @@ p{
     color: brown;
   } */
    /* Id selector */
-   h1{
+   /* h1{
     color:#A82400;
    }
    #Login{
@@ -50,4 +50,18 @@ p{
    }
    #Pass{
     text-align: right;
+   } */
+   #op{
+    border:black solid;
+    width: 250px;
+    height: 250px;
    }
+   #op1{
+    border:brown solid;
+    width: 250px;
+    height: 250px};
+    #main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
