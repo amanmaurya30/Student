@@ -1,0 +1,53 @@
+/* h2 {
+    color: orange;
+}
+button{
+    background-color:blue ;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+} */
+/* h1{
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1.5px normal;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+} */
+ /* Universal selector *
+ *{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+ } */  
+  /* element selector 
+  h1,
+  h2{
+    color: brown;
+  } */
+   /* Id selector */
+   h1{
+    color:#A82400;
+   }
+   #Login{
+    background-color: brown;
+    color: white;
+   }
+   #Signup {
+    background-color: brown;
+    color: white;
+   }
+   #Qu{
+    text-align: center;
+    font-size:50px ;
+   }
+   #User{
+    text-align:right;
+   }
+   #Pass{
+    text-align: right;
+   }
