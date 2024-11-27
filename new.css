@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header ul li a{
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+}
+#boxes div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
