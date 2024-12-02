@@ -24,34 +24,7 @@ p{
     font-family: 'Courier New', Courier, monospace;
     background-color: azure;
  } */  
-   element selector 
-  h1,
-  h2{
-    color: brown;
-  } 
-   /* Id selector */
-   #h1{
-    color:#A82400;
-   }
-   #Login{
-    background-color: brown;
-    color: white;
-   }
-   #Signup {
-    background-color: brown;
-    color: white;
-   }
-   #Qu{
-    color:#A82400;
-    text-align: center;
-    font-size:50px ;
-   }
-   #User{
-    text-align:right;
-   }
-   #Pass{
-    text-align: right;
-   } */
+  
    /* descendant selector */
    /* #op{
     border:black solid;
@@ -66,7 +39,6 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
      /* div [p]{
         color: green;
