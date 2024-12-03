@@ -44,10 +44,8 @@
 }
    #User{
     text-align:right;
+    margin: 30px;
    }
-   #Pass{
-    text-align: right;
-   }
-   .navbar ul li a{
-    display: flex;
+   .aman li a{
+    display: inline-block;
    }
